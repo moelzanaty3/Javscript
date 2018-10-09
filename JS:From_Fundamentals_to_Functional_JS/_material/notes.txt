@@ -1,0 +1,24 @@
+-> Take responsibility for your learning
+-> Difficulty ramps up considerably, but if you stick
+   with it you will reap the rewards
+-> Functional Programming
+    ->> it's about breaking up your code into verbs.
+    ->> OOP is about breaking up your code into nouns.
+    ->> a style of building the structure and elements of computer programs
+    ->> treats computation as the evaluation of mathematical functions
+    ->> avoids changing-state and mutable data.
+    ->> http://bit.ly/2QzskrN
+        => Functional Programming follow Declarative Pattern
+           which focuses on what the program should accomplish
+           without specifying how the program should achieve the result.
+-> underscore   => https://underscorejs.org/
+-> Lodash       => https://lodash.com/
+-> Ramda        => https://ramdajs.com/
+-> any thing that ever uses a DOT in javascript is an object
+-> storing value by reference or by value
+-> primitive type get passed by value
+-> non-primitive type get passed by reference
+-> mutating means updating and changing
+-> immutable means can NOT update or change it.
+-> arrays that are just object
+->
