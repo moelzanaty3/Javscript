@@ -1,3 +1,5 @@
+const _ = require('underscore');
+
 const GAME = {};
 
 GAME['suspects'] = [];
@@ -24,3 +26,13 @@ for (let index = 0; index < GAME.suspects.length; index++) {
      * second Time  => Next time
      */
 }
+
+const createSuspectObjects = (name) => ({
+    name: name,
+    color: name.split(' ')[1],
+    speak: () => (console.log(`my name is ${name}`))
+});
+const suspects = ['Miss Scarlet', 'Colonel Mustard', 'Mr. White'];
+
+_.each(suspects, (suspect) => GAME.suspects.push(createSuspectObjects(suspect)));
+console.log(GAME);
