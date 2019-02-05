@@ -1,0 +1,14 @@
+{
+  "name": "js-fromfundamentalstofunctionaljsv2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohammed Elzanaty",
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "^1.9.1"
+  }
+}

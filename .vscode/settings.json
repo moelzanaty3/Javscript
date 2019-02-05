@@ -6,7 +6,7 @@
   "editor.minimap.enabled": false,
   "window.zoomLevel": 0,
   "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "Monokai",
+  "workbench.colorTheme": "Monokai Classic",
   "editor.fontSize": 14,
   "search.exclude": {
     "**/node_modules": true,
