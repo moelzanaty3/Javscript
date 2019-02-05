@@ -1,4 +1,4 @@
-const _ = require('underscore');
+const _ = require('./shared/underscore');
 
 const GAME = {};
 
@@ -15,7 +15,7 @@ GAME.suspects.push({
 
 console.log(GAME);
 
-// Game Loop 
+// Game Loop  
 let message = '';
 for (let index = 0; index < GAME.suspects.length; index++) {
     const suspect = GAME.suspects[index];
