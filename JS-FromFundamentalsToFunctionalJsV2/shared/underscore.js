@@ -35,5 +35,17 @@ _.map = (list, callback) => {
     return results;
 }
 
+/* Filter */
+_.filter = (list, callback) => {
+    const results = [];
+    if (Array.isArray(list)) {
+        _.each(list, (element, index) => {
+            if (callback(element, index, list)) {
+                results.push(element)
+            }
+        })
+    }
+    return results;
+}
 
 module.exports = _;
