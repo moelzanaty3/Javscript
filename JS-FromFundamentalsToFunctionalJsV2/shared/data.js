@@ -1,4 +1,4 @@
-const VIDEODATA = [{
+const SUSPECTS = [{
         name: 'Miss Scarlet',
         present: true,
         rooms: [{
@@ -139,4 +139,4 @@ const VIDEODATA = [{
 ];
 
 
-module.exports = VIDEODATA;
+module.exports = SUSPECTS;
