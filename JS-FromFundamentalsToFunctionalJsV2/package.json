@@ -1,0 +1,16 @@
+{
+  "name": "js-fromfundamentalstofunctionaljsv2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Game.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Mohammed Elzanaty",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "mocha": "^5.2.0",
+    "underscore": "^1.9.1"
+  }
+}
