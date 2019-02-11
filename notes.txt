@@ -27,3 +27,9 @@
     - Global Execution Context 
         - Thread of execution (parsing and executing the code line after line).
         - Live memory of variables with data (known as Global Variabled Environment).
+    - When you execute a function you create a new execution context comprising: 
+        - The Thread of exection (we go through the code in the function line by line)
+        - A local memory ('variable environemnt') where anything defined in the function is stored.
+    - Whatever is top of the call stack is where javascript thread. where is currently running ur code. so JS doesn't worry where u r in ur code now. 
+    -  
+    - 
