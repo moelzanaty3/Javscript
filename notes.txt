@@ -31,5 +31,9 @@
         - The Thread of exection (we go through the code in the function line by line)
         - A local memory ('variable environemnt') where anything defined in the function is stored.
     - Whatever is top of the call stack is where javascript thread. where is currently running ur code. so JS doesn't worry where u r in ur code now. 
+    - Functional Programming
+        - is a paradaim, a means of structuring and thinking about how we write our code at scale.
+        - Function are first class Citizin. 
+        - pure function (no side effects). 
+    - we should use CONST for everyting unless u know, u don't change it.
     -  
-    - 
